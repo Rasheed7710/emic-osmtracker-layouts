@@ -1,4 +1,4 @@
 <metadata>
-    <option iso="es" name="Español">Con este Layout se podrá mapear los tres tipos de paradas de buses, lugares de estacionamiento de taxis, trenes y bicicletas, además, de ciclovías y lugares de alquiler de bicicletas.</option>
-    <github username="kalliopeargentina" repo="emic-osmtracker-layouts" branch="master" />
+    <option iso="es" name="Español">Este layout permite regiostrar la oferta comercial. Registra diferentes tipos de comercios por rubro incluye la opción de registrar locales y edificios vacios como potenciales comercios</option>
+    <github username="kalliopeargentina" repo="emic-osmtracker-layouts" branch="main" />
 </metadata>

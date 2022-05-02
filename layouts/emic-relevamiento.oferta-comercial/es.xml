@@ -2,36 +2,82 @@
 <layouts>
 	<layout name="root">
 		<row>
-			<button type="voicerec" icon="voice_32x32" />
-			<button type="picture" icon="camera_32x32" />
-			<button type="textnote" icon="text_32x32" />
-		</row>
-				<row>
-			<button type="tag" label="Centro Comercial" icon="" />
-			<button type="tag" icon="camera_32x32" />
-			<button type="tag" icon="text_32x32" />
+			<button type="voicerec" icon="voice_32x32"/>
+			<button type="picture" icon="camera_32x32"/>
+			<button type="textnote" icon="text_32x32"/>
 		</row>
 		<row>
-			<button type="page" label="Gastronomía" icon="" targetlayout="gastronomia"  />
-			<button type="page" label="Indumentaria" icon="" targetlayout=""  />
-			<button type="page" label="Alimentarios" icon="" targetlayout=""  />
+			<button type="tag" label="Centro Comercial" icon=""/>
+			<button type="tag" icon="camera_32x32"/>
+			<button type="tag" icon="text_32x32"/>
 		</row>
 		<row>
-			<button type="page" label="Transporte" icon="" targetlayout=""  />
-			<button type="page" label="Servicios Públicos" icon="" targetlayout=""  />
-			<button type="page" label="Estado del Camino" icon="" targetlayout=""  />
+			<button type="page" label="Gastronomía" icon="" targetlayout="gastronomia"/>
+			<button type="page" label="Indumentaria" icon="" targetlayout="indumentaria"/>
+			<button type="page" label="Alimentarios" icon="" targetlayout="alimentarios"/>
+		</row>
+		<row>
+			<button type="page" label="Transporte" icon="" targetlayout="transporte"/>
+			<button type="page" label="Servicios Públicos" icon="" targetlayout="servicio"/>
+			<button type="page" label="Estado del Camino" icon="" targetlayout="camino"/>
+		</row>
+	</layout>
+	<layout name="gastronomia">
+		<row>
+			<!-- Two standard tag buttons -->
+			<button type="tag" label="Restaurant" icon=""/>
+			<button type="tag" label="Bar" icon=""/>
+			<button type="tag" label="Cafe" icon=""/>
 		</row>
 	</layout>
 	
-	 <layout name="gastronomia">
-  <row>
-   <!-- Two standard tag buttons -->
-   <button type="tag" label="Bench" icon="button_amenity_bench.png" />
-   <button type="tag" label="Water" icon="button_amenity_water.png" />
-   <!-- A 2nd level page button -->
-   <button type="page" label="More amenities..." targetlayout="amenity_more" />
-   <!-- And a special action button -->
-   <button type="textnote" label="Text note" icon="text.png" />
-  </row>
- </layout>
+	<layout name="indumentaria">
+		<row>
+			<!-- Two standard tag buttons -->
+			<button type="tag" label="Mujer" icon=""/>
+			<button type="tag" label="Hombre" icon=""/>
+			<button type="tag" label="Deportes" icon=""/>
+		</row>
+	</layout>
+	
+	<layout name="alimentarios">
+		<row>
+			<!-- Two standard tag buttons -->
+			<button type="tag" label="Panadería" icon=""/>
+			<button type="tag" label="Carnicería" icon=""/>
+			<button type="tag" label="Verdulería" icon=""/>
+		</row>
+		<row>
+			<!-- Two standard tag buttons -->
+			<button type="tag" label="Almacen" icon=""/>
+			<button type="tag" label="Market/Proveduría" icon=""/>
+			<button type="tag" label="Pescadería" icon=""/>
+		</row>
+	</layout>
+		<layout name="transporte">
+		<row>
+			<!-- Two standard tag buttons -->
+			<button type="tag" label="Parada Colectivo" icon=""/>
+			<button type="tag" label="Estacion de tren" icon=""/>
+			<button type="tag" label="Parada MaryGo" icon=""/>
+		</row>
+	</layout>
+		<layout name="servicio">
+		<row>
+			<!-- Two standard tag buttons -->
+			<button type="tag" label="Bomberos" icon=""/>
+			<button type="tag" label="Policia" icon=""/>
+			<button type="tag" label="Municipalidad" icon=""/>
+		</row>
+	</layout>
+		<layout name="camino">
+		<row>
+			<!-- Two standard tag buttons -->
+			<button type="tag" label="Calle de Tierra" icon=""/>
+			<button type="tag" label="Asfalto en mal estado" icon=""/>
+			<button type="tag" label="Alto Transito" icon=""/>
+		</row>
+	</layout>
+	
+	
 </layouts>
